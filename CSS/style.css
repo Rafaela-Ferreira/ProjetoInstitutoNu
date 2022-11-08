@@ -1,12 +1,13 @@
 header{
     background-color: #002c3e;
 }
-
-
-
+.navbar-brand{
+    font-family: limelight;
+}
 #quemSomos h1, #nossosProdutos h1, #novidades h1{
     padding: 50px;
     color: #78bcc4;
+    font-family: limelight;
 }
 #quemSomosImg{
     width: 350px;
@@ -15,17 +16,12 @@ header{
 #quemSomos{
     font-size: 16px;
 }
-.carousel-inner h5{
-    font-size: 30px;
-    font-family:monospace;
-    color: red;
+#nossoTime{  
+    background-color: #ffc6bf; 
 }
-.logo{
-    letter-spacing: 1em;
-}
-#nossoTime, #nossoTime h1{
+#nossoTime h1{
     padding-top: 50px;
-    background-color: #ffc6bf;
+    font-family: limelight;
 }
 
 #nossoTime img{
